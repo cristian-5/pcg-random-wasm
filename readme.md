@@ -1,10 +1,11 @@
 
 ## pcg-random-wasm
 
-🎲 Web Assembly PCG random number generator http://www.pcg-random.org.\
+🎲 Web Assembly PCG random number generator http://www.pcg-random.org .\
 💗 **Handwritten**, **commented** port based on *Ph.D. Melissa E. O'Neill*'s work.
 
-> PCG is a family of simple fast space-efficient statistically good algorithms for random number generation. Unlike many general-purpose RNGs, they are also hard to predict.
+> PCG is a family of simple fast space-efficient statistically good algorithms for random number generation.
+> Unlike many general-purpose RNGs, they are also hard to predict.
 
 This project comes with a `p5.js` sketch to demonstrate uniform distribuition.
 
