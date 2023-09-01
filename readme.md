@@ -7,7 +7,8 @@
 > PCG is a family of simple fast space-efficient statistically good algorithms for random number generation.\
 > Unlike many general-purpose RNGs, they are also hard to predict.
 
-This project comes with a `p5.js` sketch to demonstrate uniform distribuition.
+This project comes with a `p5.js` sketch to demonstrate uniform distribuition.\
+⚠️ **Attention:** the sketch needs to be served by a web server, otherwise it won't work.
 
 ### API usage:
 
