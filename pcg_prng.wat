@@ -13,7 +13,10 @@
 			(i64.const 1)
 		)) ;; inc = (initseq << 1) | 1
 		(drop (call $pcg32_next)) ;; discard next()
-		(global.set $pcg32_state (local.get $initstate)) ;; state = initstate
+		(global.set $pcg32_state (i64.add
+			(global.get $pcg32_state)
+			(local.get $initstate)
+		)) ;; state += initstate
 		(drop (call $pcg32_next)) ;; discard next()
 	)
 
